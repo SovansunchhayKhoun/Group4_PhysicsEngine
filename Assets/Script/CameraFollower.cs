@@ -7,11 +7,12 @@ public class CameraFollower : MonoBehaviour
 
   public void Start()
   {
-    // transform.Rotate(45f, transform.rotation.y, transform.rotation.z);
+
   }
 
   public void LateUpdate()
   {
-    transform.position = target.transform.position + new Vector3(-1.53f, 2f, 1.5f);
+    Vector3 offset = new Vector3(-1.4f, 1.6f, -1f);
+    transform.position = target.transform.position + offset;
   }
 }
