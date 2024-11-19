@@ -25,6 +25,11 @@ public class PlayerController : MonoBehaviour
         HandleSpeedUp();
     }
 
+    void LateUpdate()
+    {
+        HandleSlowDown();
+    }
+
     private void HandleMovement()
     {
         float verticalInput = Input.GetAxis("Vertical");
@@ -35,15 +40,25 @@ public class PlayerController : MonoBehaviour
         HandleRotation();
     }
 
+    private void HandleSlowDown()
+    {
+        if (speed > 1)
+        {
+            speed -= 1f * Time.deltaTime;
+        }
+    }
+
     private void HandleSpeedUp()
     {
+        if (Input.GetKey(KeyCode.W) && speed < 10)
+        {
+            speed += 2f * Time.deltaTime;
+        }
+
+
         if (Input.GetKey(KeyCode.LeftShift) && speed < 10)
         {
-            speed += 0.05f;
-        }
-        else if (speed > 1)
-        {
-            speed -= 0.01f;
+            speed += 3f * Time.deltaTime;
         }
     }
 
