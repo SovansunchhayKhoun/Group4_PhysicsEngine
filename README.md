@@ -2,12 +2,27 @@
 
 ## Features
 
-- A player driving a car
-  - Able to apply some physics on the car's wheels
-- Has some ramps (maybe)
-- A goal net
-- Some random cars (bots) driving around the field
-- If the player's car bump with the bot car -> crash/game over
-- If the player hits the ball, it bounces
-- The ball has a sprint joint -> drop on start
-- If the ball enters the goal net -> gain a score
+🚘 Player-Driven Car
+
+	•	Take control of a player car that is fully functional and dynamic.
+	•	Experience realistic physics applied to the car’s wheels.
+
+🛝 Interactive Environment
+
+	•	Navigate through ramps (optional) to perform stunts or reach tricky areas.
+	•	Interact with other objects on the field, including the goal net.
+
+🤖 Bot Cars
+
+	•	Randomly moving bot cars populate the field.
+	•	Colliding with a bot car results in a crash and game over.
+
+⚽ Physics-Based Ball
+
+	•	Hit the ball to make it bounce dynamically across the field.
+	•	The ball uses a spring joint mechanism, ensuring it drops naturally at the start of the game.
+
+🥅 Score System
+
+	•	Drive the ball into the goal net to score points.
+	•	Achieve the highest score while avoiding crashes to win!
