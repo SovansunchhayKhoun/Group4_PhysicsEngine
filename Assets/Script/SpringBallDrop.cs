@@ -21,7 +21,7 @@ public class SpringBallDrop : MonoBehaviour
         {
             GameObject anchorObject = new GameObject("AnchorPoint");
             anchorPoint = anchorObject.transform;
-            anchorPoint.position = new Vector3(-7, 6, -4);  
+            anchorPoint.position = new Vector3(-7 , 6, -4);  
         }
 
         
