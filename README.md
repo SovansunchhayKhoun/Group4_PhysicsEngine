@@ -5,17 +5,6 @@
 🚘 Player-Driven Car
 
 	•	Take control of a player car that is fully functional and dynamic.
-	•	Experience realistic physics applied to the car’s wheels.
-
-🛝 Interactive Environment
-
-	•	Navigate through ramps (optional) to perform stunts or reach tricky areas.
-	•	Interact with other objects on the field, including the goal net.
-
-🤖 Bot Cars
-
-	•	Randomly moving bot cars populate the field.
-	•	Colliding with a bot car results in a crash and game over.
 
 ⚽ Physics-Based Ball
 
@@ -25,4 +14,4 @@
 🥅 Score System
 
 	•	Drive the ball into the goal net to score points.
-	•	Achieve the highest score while avoiding crashes to win!
+	•	Achieve the highest score to win!
